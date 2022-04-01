@@ -1,7 +1,25 @@
 {
   "variants": {
-    "": {
-      "model": "random_ore:block/random_ore"
+    "ore_type=0": {
+      "model": "minecraft:block/coal_ore"
+    },
+    "ore_type=1": {
+      "model": "minecraft:block/copper_ore"
+    },
+    "ore_type=2": {
+      "model": "minecraft:block/iron_ore"
+    },
+    "ore_type=3": {
+      "model": "minecraft:block/gold_ore"
+    },
+    "ore_type=4": {
+      "model": "minecraft:block/lapis_ore"
+    },
+    "ore_type=5": {
+      "model": "minecraft:block/diamond_ore"
+    },
+    "ore_type=6": {
+      "model": "minecraft:block/emerald_ore"
     }
   }
 }
