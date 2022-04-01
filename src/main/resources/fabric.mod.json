@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "random_ore",
+  "version": "${version}",
+  "name": "RandomOre",
+  "description": "Want to dig random ores?",
+  "authors": [
+    "ThreRiverElder"
+  ],
+  "contact": {
+    "repo": "git@github.com:TheRiverElder/RandomOre.git"
+  },
+  "license": "MIT",
+  "icon": "assets/random_ore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.theriverelder.randomore.client.RandomOreClient"
+    ],
+    "main": [
+      "io.github.theriverelder.randomore.RandomOre"
+    ]
+  },
+  "mixins": [
+    "random_ore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
