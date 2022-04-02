@@ -1,5 +1,8 @@
 {
   "variants": {
+    "ore_type=-1": {
+      "model": "random_ore:block/random_ore"
+    },
     "ore_type=0": {
       "model": "minecraft:block/coal_ore"
     },
@@ -16,10 +19,37 @@
       "model": "minecraft:block/lapis_ore"
     },
     "ore_type=5": {
-      "model": "minecraft:block/diamond_ore"
+      "model": "minecraft:block/redstone_ore"
     },
     "ore_type=6": {
+      "model": "minecraft:block/diamond_ore"
+    },
+    "ore_type=7": {
       "model": "minecraft:block/emerald_ore"
+    },
+    "ore_type=8": {
+      "model": "minecraft:block/deepslate_coal_ore"
+    },
+    "ore_type=9": {
+      "model": "minecraft:block/deepslate_copper_ore"
+    },
+    "ore_type=10": {
+      "model": "minecraft:block/deepslate_iron_ore"
+    },
+    "ore_type=11": {
+      "model": "minecraft:block/deepslate_gold_ore"
+    },
+    "ore_type=12": {
+      "model": "minecraft:block/deepslate_lapis_ore"
+    },
+    "ore_type=13": {
+      "model": "minecraft:block/deepslate_redstone_ore"
+    },
+    "ore_type=14": {
+      "model": "minecraft:block/deepslate_diamond_ore"
+    },
+    "ore_type=15": {
+      "model": "minecraft:block/deepslate_emerald_ore"
     }
   }
 }
